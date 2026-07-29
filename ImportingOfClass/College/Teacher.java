@@ -1,7 +1,5 @@
 package ImportingOfClass.College;
 
-import java.sql.SQLOutput;
-
 public class Teacher {
      public void print(){
         Student s1 = new Student();
