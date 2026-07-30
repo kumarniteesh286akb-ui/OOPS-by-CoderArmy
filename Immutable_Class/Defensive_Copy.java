@@ -21,7 +21,7 @@ public class Defensive_Copy {
         }
     }
 
-    // NOT purely immutable
+    // purely immutable
     final class Student1{
         private final int age;
         private final String name;

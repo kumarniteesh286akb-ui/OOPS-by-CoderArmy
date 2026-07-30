@@ -1,22 +1,22 @@
 package Immutable_Class;
 
 public class RulesOfImmutableObjects {
-// Rules of the IMMUTABLE classes
+    // Rules of the IMMUTABLE classes
     //mark the class as the final
     // mark the instance variable as the private and the final
     //should not make any setter in the class
-public static void main(String[] args) {
-    college College = new college("Nit","Srinagar");
-    Student s1 = new Student(22 ,"Niteesh ",College);
- System.out.println(s1.Getage());
-    System.out.println(s1.getName());
-    System.out.println(s1.getCollege().name);
-s1.getCollege().name = "MIT";
-    System.out.println(s1.getCollege().name);
+    public static void main(String[] args) {
+        college College = new college("Nit","Srinagar");
+        Student s1 = new Student(22 ,"Niteesh ",College);
+        System.out.println(s1.Getage());
+        System.out.println(s1.getName());
+        System.out.println(s1.getCollege().name);
+        s1.getCollege().name = "MIT";
+        System.out.println(s1.getCollege().name);
 
-    System.out.println(College.name);
+        System.out.println(College.name);
 
-}
+    }
 }
 
 // NOT purely immutable
