@@ -31,8 +31,6 @@ class Student{
         System.out.println("The college name of the student is : "+Student.collegeName);
     }
 
-
-
     // static block
     static {
         collegeName = "NIT SRINAGAR";
