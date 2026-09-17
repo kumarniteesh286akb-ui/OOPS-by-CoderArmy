@@ -10,6 +10,10 @@ interface Animal {
 interface Dog extends Animal{
 void bark();
 }
+
+
+
+
 class StreetDog implements Dog{
     public void eat(){
         System.out.println("The dog is eating.....");
