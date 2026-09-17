@@ -22,3 +22,5 @@ class StreetDog implements Dog{
         System.out.println("The dog is barking......");
     }
 }
+
+
