@@ -25,3 +25,7 @@ public class WildCard2 {
 //        }
 //    }
 }
+
+class Cat extends Animal1{
+
+}
