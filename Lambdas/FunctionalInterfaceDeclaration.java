@@ -1,0 +1,1 @@
+package Lambdas;public class FunctionalInterfaceDeclaration {	public static void main(String[] args) {		print(3,4,(a,b)->a+b);	}	public static void print(int a , int b , Calculator c){		System.out.println(c.calculate(a,b));	}}@FunctionalInterfaceinterface Calculator{	int calculate(int a ,int b);}
