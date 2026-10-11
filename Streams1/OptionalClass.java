@@ -28,8 +28,8 @@ public class OptionalClass {
 //			}
 //		}
 
-		user.map(x->x.address)
-				.map(y->y.city)
+		user.map(User::getAddress)
+				.map(Address::getCity)
 				.ifPresent(System.out::println);
 
 
@@ -67,8 +67,14 @@ public class OptionalClass {
 
 class User{
 	public Address address;
+	public Address getAddress(){
+		return address;
+	}
 }
 class Address{
 	public String city;
+	public String getCity(){
+		return city;
+	}
 }
 

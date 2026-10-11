@@ -12,5 +12,6 @@ class MyRunnable implements Runnable{
 	public void run(){
 		System.out.println("Thread using the runnable....");
 		System.out.println("This is the output of the csv file and this is the output");
+		System.out.println("This is the output of the csv file and this is the output");
 	}
 }
