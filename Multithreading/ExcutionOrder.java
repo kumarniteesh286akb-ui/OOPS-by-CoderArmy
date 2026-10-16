@@ -1,6 +1,6 @@
 package Multithreading;
 
-public class ExcutionOrder {
+public class  ExcutionOrder {
 	void main(){
 		//1 to 100 (Even numbers)
 		Thread t1 = new Thread(()->{

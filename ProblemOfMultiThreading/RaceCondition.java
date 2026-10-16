@@ -28,3 +28,4 @@ class counter{
 }
 //In this code the increment method is shared resource and for that and which is known as the critical section of this
 
+//there is the race condition between the thread t1 and t2 and this will not give the desired answer...
