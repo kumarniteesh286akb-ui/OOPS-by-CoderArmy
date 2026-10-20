@@ -36,6 +36,7 @@ class Box{
 		System.out.println("Consumer consumes "+item);
 		flag = false;
 	}
+	//If we use the synchronize then this would not solve the problem as it would decide that the two Threads can not enter to the same method or the shared resource.....
 
 
 
